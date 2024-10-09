@@ -10,7 +10,7 @@ import utilities.TestBaseBeforeMethodAfterMethod;
 public class C06_SoftAssert extends TestBaseBeforeMethodAfterMethod {
 
     @Test
-    public void testSoftAssert() {
+    public void testSoftAssert() throws InterruptedException {
         SoftAssert softAssert = new SoftAssert();
         driver.get("https://www.amazon.com.tr");
         Thread.sleep(1000);
