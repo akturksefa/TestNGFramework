@@ -24,7 +24,7 @@ public class C05_SmokeNegatifTest {
 
     }
 
-    @Test
+    @Test(groups = "grup1")
     public void test2() {
 
         Driver.getDriver().get(ConfigReader.getProperty("aloTechURL"));

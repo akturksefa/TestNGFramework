@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="istenen classlari calistirma">
+    <test name="classlar">
+        <classes>
+            <class name="tests.Ders09.C06_SoftAssert"/>
+        </classes>
+    </test>
+</suite>

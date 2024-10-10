@@ -14,7 +14,7 @@ public class C05_DataProvider {
         return new Object[][]{{"user@gmail.com","12345"},{"user1@gmail.com","12345"},{"user2@gmail.com","12345"}};
     }
 
-    @Test(dataProvider = "loginTest")
+    @Test(dataProvider = "loginTest",groups = "grup1")
     public void dataProvider(String email, String password) {
 
         BrcPage brcPage = new BrcPage();
